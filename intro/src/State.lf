@@ -8,7 +8,6 @@ states can be reset using
     reset state <name> = <value>
 
 */
-
 # This reactor has an integer state variable named count, 
 # and each time its reaction is invoked, it outputs the value 
 # of that state variable and increments it. 

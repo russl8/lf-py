@@ -1,0 +1,35 @@
+target Python
+
+
+/*
+define main reactor(starttime, incr) both init to 100ms
+    state interval, init start
+    logical action a
+
+
+    1. reaction on startup to schedule a to start
+    2. reaction on a,     elapsed_logical_time = lf.time.logical_elapsed()
+    increment interval by incr
+    reschedule a
+*/
+
+main reactor(start= 100 ms, incr = 100 ms ){
+    state interval = start
+    logical action a 
+
+    // t = lf.time.logical_elapsed()
+    // T = lf.time.physical_elapsed() # might differ from logical by ns/ms
+    // timeout: 10 s # stops executing after 10 sec
+    //   reaction(shutdown) {==} # execut4s on shutdown. good for writing tests
+    reaction(startup) -> a {=
+        a.schedule(self.start)
+    =}
+
+    reaction(a) -> a {=
+        elapsed_logical_time = lf.time.logical_elapsed()
+        print(f"Elapsed time since start: {elapsed_logical_time} nsec")
+        self.interval += self.incr 
+        a.schedule(self.interval)
+    =}
+
+}

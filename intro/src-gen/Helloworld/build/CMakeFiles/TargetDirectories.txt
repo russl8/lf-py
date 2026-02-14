@@ -1,0 +1,16 @@
+/Users/russl8/github/lf-py/intro/src-gen/Helloworld/build/CMakeFiles/LinguaFrancaHelloworld.dir
+/Users/russl8/github/lf-py/intro/src-gen/Helloworld/build/CMakeFiles/edit_cache.dir
+/Users/russl8/github/lf-py/intro/src-gen/Helloworld/build/CMakeFiles/rebuild_cache.dir
+/Users/russl8/github/lf-py/intro/src-gen/Helloworld/build/CMakeFiles/list_install_components.dir
+/Users/russl8/github/lf-py/intro/src-gen/Helloworld/build/CMakeFiles/install.dir
+/Users/russl8/github/lf-py/intro/src-gen/Helloworld/build/CMakeFiles/install/local.dir
+/Users/russl8/github/lf-py/intro/src-gen/Helloworld/build/CMakeFiles/install/strip.dir
+/Users/russl8/github/lf-py/intro/src-gen/Helloworld/build/core/CMakeFiles/reactor-c.dir
+/Users/russl8/github/lf-py/intro/src-gen/Helloworld/build/core/CMakeFiles/lf-low-level-platform-impl.dir
+/Users/russl8/github/lf-py/intro/src-gen/Helloworld/build/core/CMakeFiles/lf-platform-impl.dir
+/Users/russl8/github/lf-py/intro/src-gen/Helloworld/build/core/CMakeFiles/edit_cache.dir
+/Users/russl8/github/lf-py/intro/src-gen/Helloworld/build/core/CMakeFiles/rebuild_cache.dir
+/Users/russl8/github/lf-py/intro/src-gen/Helloworld/build/core/CMakeFiles/list_install_components.dir
+/Users/russl8/github/lf-py/intro/src-gen/Helloworld/build/core/CMakeFiles/install.dir
+/Users/russl8/github/lf-py/intro/src-gen/Helloworld/build/core/CMakeFiles/install/local.dir
+/Users/russl8/github/lf-py/intro/src-gen/Helloworld/build/core/CMakeFiles/install/strip.dir

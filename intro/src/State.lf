@@ -1,0 +1,28 @@
+target Python
+
+/*
+state <name> = <value>
+- <value> :  expression or target language code with delimiters {= ... =}
+
+states can be reset using
+    reset state <name> = <value>
+
+*/
+
+# This reactor has an integer state variable named count, 
+# and each time its reaction is invoked, it outputs the value 
+# of that state variable and increments it. 
+# 
+# The reaction is 
+# triggered by a timer, discussed in the next section.
+reactor Count {
+    state count = 0
+    output y
+    timer t(0, 100msec) // start, offset
+
+
+    reaction(t) -> y {= 
+        y.set(self.count)
+        self.count += 1
+    =}
+}

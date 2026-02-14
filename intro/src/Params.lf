@@ -1,0 +1,19 @@
+target Python
+
+/*
+reactor <class-name>(<param-name> = <expr>, ... ) {
+    ...
+}
+- Params need to have some default value
+- <expr> : numeric constant, a string enclosed in quotation marks, 
+            a time value such as 10 msec, a list of values, or 
+            target-language code enclosed in {= ... =}
+*/
+reactor scale(factor = 2) {
+    input x
+    output y 
+
+    reaction(x) -> y {=
+        y.set(x.value * self.factor)
+    =}
+}

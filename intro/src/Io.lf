@@ -1,0 +1,31 @@
+/**
+Input and output declarations have the form:
+  input <name>
+  output <name>
+
+Inputs are immutable by default. To make mutable, do
+    mutable input x 
+*/
+target Python
+
+reactor Double {
+    input x
+    output y
+    reaction(x) -> y {=
+        y.set(x.value * 2)
+    =}
+}
+
+reactor Destination {
+    input x
+    input y
+
+    reaction (x,y) {=
+        sum = 0
+        if x.is_present:
+            sum += x
+        if y.is_present:
+            sum += y
+        print(f"Received {sum}")
+    =}
+}

@@ -1,0 +1,16 @@
+/Users/russl8/github/lf-py/intro/src-gen/Timers/build/CMakeFiles/LinguaFrancaTimers.dir
+/Users/russl8/github/lf-py/intro/src-gen/Timers/build/CMakeFiles/edit_cache.dir
+/Users/russl8/github/lf-py/intro/src-gen/Timers/build/CMakeFiles/rebuild_cache.dir
+/Users/russl8/github/lf-py/intro/src-gen/Timers/build/CMakeFiles/list_install_components.dir
+/Users/russl8/github/lf-py/intro/src-gen/Timers/build/CMakeFiles/install.dir
+/Users/russl8/github/lf-py/intro/src-gen/Timers/build/CMakeFiles/install/local.dir
+/Users/russl8/github/lf-py/intro/src-gen/Timers/build/CMakeFiles/install/strip.dir
+/Users/russl8/github/lf-py/intro/src-gen/Timers/build/core/CMakeFiles/reactor-c.dir
+/Users/russl8/github/lf-py/intro/src-gen/Timers/build/core/CMakeFiles/lf-low-level-platform-impl.dir
+/Users/russl8/github/lf-py/intro/src-gen/Timers/build/core/CMakeFiles/lf-platform-impl.dir
+/Users/russl8/github/lf-py/intro/src-gen/Timers/build/core/CMakeFiles/edit_cache.dir
+/Users/russl8/github/lf-py/intro/src-gen/Timers/build/core/CMakeFiles/rebuild_cache.dir
+/Users/russl8/github/lf-py/intro/src-gen/Timers/build/core/CMakeFiles/list_install_components.dir
+/Users/russl8/github/lf-py/intro/src-gen/Timers/build/core/CMakeFiles/install.dir
+/Users/russl8/github/lf-py/intro/src-gen/Timers/build/core/CMakeFiles/install/local.dir
+/Users/russl8/github/lf-py/intro/src-gen/Timers/build/core/CMakeFiles/install/strip.dir

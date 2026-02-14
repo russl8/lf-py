@@ -1,0 +1,2 @@
+/usr/bin/ar Scr liblf-platform-impl.a "CMakeFiles/lf-platform-impl.dir/__/platform/impl/platform.c.o"
+/usr/bin/ranlib -no_warning_for_no_symbols -c liblf-platform-impl.a

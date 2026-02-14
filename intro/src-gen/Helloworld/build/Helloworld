@@ -1,0 +1,2 @@
+#!/bin/sh
+        /Users/russl8/.pyenv/shims/python3.13 /Users/russl8/github/lf-py/intro/src-gen/Helloworld/Helloworld.py "$@"

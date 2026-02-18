@@ -1,0 +1,16 @@
+/Users/russl8/github/lf-py/pingpong/src-gen/Pingpong/build/CMakeFiles/LinguaFrancaPingpong.dir
+/Users/russl8/github/lf-py/pingpong/src-gen/Pingpong/build/CMakeFiles/edit_cache.dir
+/Users/russl8/github/lf-py/pingpong/src-gen/Pingpong/build/CMakeFiles/rebuild_cache.dir
+/Users/russl8/github/lf-py/pingpong/src-gen/Pingpong/build/CMakeFiles/list_install_components.dir
+/Users/russl8/github/lf-py/pingpong/src-gen/Pingpong/build/CMakeFiles/install.dir
+/Users/russl8/github/lf-py/pingpong/src-gen/Pingpong/build/CMakeFiles/install/local.dir
+/Users/russl8/github/lf-py/pingpong/src-gen/Pingpong/build/CMakeFiles/install/strip.dir
+/Users/russl8/github/lf-py/pingpong/src-gen/Pingpong/build/core/CMakeFiles/reactor-c.dir
+/Users/russl8/github/lf-py/pingpong/src-gen/Pingpong/build/core/CMakeFiles/lf-low-level-platform-impl.dir
+/Users/russl8/github/lf-py/pingpong/src-gen/Pingpong/build/core/CMakeFiles/lf-platform-impl.dir
+/Users/russl8/github/lf-py/pingpong/src-gen/Pingpong/build/core/CMakeFiles/edit_cache.dir
+/Users/russl8/github/lf-py/pingpong/src-gen/Pingpong/build/core/CMakeFiles/rebuild_cache.dir
+/Users/russl8/github/lf-py/pingpong/src-gen/Pingpong/build/core/CMakeFiles/list_install_components.dir
+/Users/russl8/github/lf-py/pingpong/src-gen/Pingpong/build/core/CMakeFiles/install.dir
+/Users/russl8/github/lf-py/pingpong/src-gen/Pingpong/build/core/CMakeFiles/install/local.dir
+/Users/russl8/github/lf-py/pingpong/src-gen/Pingpong/build/core/CMakeFiles/install/strip.dir

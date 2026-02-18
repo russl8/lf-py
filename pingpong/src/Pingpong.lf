@@ -1,0 +1,42 @@
+target Python
+
+reactor Player(name="NO_NAME", delay = 0 msec, serve = 0) {
+  input ballIn
+  output ballOut
+  state timesHit = 0
+  logical action a
+
+ 
+  reaction(startup) -> a {=
+    # if this player serves, start the ball
+    if self.serve:
+        a.schedule(0)
+  =}
+
+  // on ballIn, schedule the ball to be sent back out in DELAY msec
+  reaction(ballIn) -> a {=
+    elapsed_logical_time = lf.time.logical_elapsed()
+    a.schedule(self.delay)
+    self.timesHit += 1
+  =}
+
+  // after the delay, send the ball back out
+  reaction(a) -> ballOut {=
+    elapsed_logical_time = lf.time.logical_elapsed()
+    print(f"[{elapsed_logical_time}] {self.name} has hit the ball (hit #{self.timesHit})")
+    ballOut.set(True)
+  =}
+}
+
+
+main reactor {
+    p1 = new Player(name="Bob", delay = 100 msec, serve = 1)
+    p2 = new Player(name="Jude", delay = 300 msec)
+
+    p1.ballOut -> p2.ballIn after 0 # for circular deps issue
+    p2.ballOut -> p1.ballIn 
+
+    // reaction(startup) {=
+
+    // =}
+}

@@ -1,0 +1,2 @@
+/usr/bin/ar Scr liblf-low-level-platform-impl.a "CMakeFiles/lf-low-level-platform-impl.dir/__/low_level_platform/impl/src/lf_unix_clock_support.c.o" "CMakeFiles/lf-low-level-platform-impl.dir/__/low_level_platform/impl/src/lf_macos_support.c.o" "CMakeFiles/lf-low-level-platform-impl.dir/__/low_level_platform/impl/src/lf_atomic_gcc_clang.c.o" "CMakeFiles/lf-low-level-platform-impl.dir/__/low_level_platform/impl/src/lf_platform_util.c.o"
+/usr/bin/ranlib -no_warning_for_no_symbols -c liblf-low-level-platform-impl.a
